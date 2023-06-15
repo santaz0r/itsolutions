@@ -3,7 +3,7 @@ import CustomNavLink from '../CustomNavLink/CustomNavLink';
 
 const Header = () => {
   return (
-    <header className="bg-header-color h-16 rounded-bl-xl">
+    <header className="bg-main-color h-16 rounded-bl-xl">
       <div className="flex justify-between ">
         <div className="py-3 pl-[5.25rem] ">
           <ContactsTemplate content="+372 43675 476" path="/src/assets/phone.svg" alt="phone" />
@@ -20,25 +20,25 @@ const Header = () => {
 
           <nav>
             <ul className="flex items-center text-white pr-6">
-              <li className="ml-16 px-4">
+              <li className="ml-28 px-3">
                 <CustomNavLink path={'/'} content="ГЛАВНАЯ" />
               </li>
-              <li className="px-4">
+              <li className="px-3">
                 <CustomNavLink path={'/about'} content="О НАС" />
               </li>
-              <li className="px-4">
+              <li className="px-3">
                 <CustomNavLink path={'/offer'} content="ОТПРАВЬТЕ НАМ ПРЕДЛОЖЕНИЕ " />
               </li>
-              <li className="px-4">
+              <li className="px-3">
                 <CustomNavLink path={'/FAQ'} content="ЧЗВ" />
               </li>
-              <li className="px-4">
+              <li className="px-3">
                 <CustomNavLink path={'/blog'} content="БЛОГ" />
               </li>
-              <li className="px-4">
+              <li className="px-3">
                 <CustomNavLink path={'/contacts'} content="КОНТАКТЫ" />
               </li>
-              <li className="px-4">
+              <li className="px-3">
                 <img src="src/assets/flag.svg" alt="flag" />
               </li>
             </ul>

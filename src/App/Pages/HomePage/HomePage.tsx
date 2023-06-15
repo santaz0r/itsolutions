@@ -1,27 +1,20 @@
+import CarForm from '../../components/Form/CarForm';
+import PersonForm from '../../components/Form/PersonForm';
+
 const HomePage = () => {
   return (
-    <div>
-      <h3 className="font-arimo text-lg">Данные Автомобиля</h3>
-      <form action="">
-        <div className="grid grid-cols-4 gap-8">
-          <div>
-            <label htmlFor="mark">Марка</label>
-            <div>
-              <input className="border-gray-500" type="text" />
-            </div>
-          </div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
-          <div className="h-6">1</div>
-          <button className="col-span-3 bg-gray-200 h-7">1</button>
+    <>
+      <section className="relative">
+        <CarForm />
+        <PersonForm />
+        <img className="absolute right-0 top-20" src="src/assets/city21.png" alt="city" />
+      </section>
+      <section>
+        <div>
+          <img className="w-[69px]" src="src/assets/logo.svg" alt="logo" />
         </div>
-      </form>
-    </div>
+      </section>
+    </>
   );
 };
 

@@ -9,9 +9,10 @@ export default {
 
     extend: {
       colors: {
-        'header-color': '#9CC634',
+        'main-color': '#9CC634',
         'header-nav': '#072446',
         'main-text-color': '#0D2444',
+        'button-color': '#A6C34F',
       },
     },
   },
