@@ -9,7 +9,7 @@ const CarForm = () => {
   } = useForm();
 
   const onSubmit = handleSubmit((data) => {
-    console.log('kekw', data);
+    console.log('data1', data);
   });
 
   return (

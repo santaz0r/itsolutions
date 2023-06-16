@@ -9,7 +9,7 @@ const PersonForm = () => {
   } = useForm();
 
   const onSubmit = handleSubmit((data) => {
-    console.log('kekw', data);
+    console.log('data2', data);
   });
   return (
     <div className="w-[45%]">
