@@ -107,7 +107,7 @@ const HomePage = () => {
             />
             <Advantages
               imagePath="./assets/check.svg"
-              content="Покупаем машины не работающие и нуждающиеся в ремонте"
+              content="Покупаем машины неработающие и нуждающиеся в ремонте"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
             />
