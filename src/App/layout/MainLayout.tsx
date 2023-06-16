@@ -5,7 +5,7 @@ const MainLayout = () => {
   return (
     <>
       <Header />
-      <main className="pt-[4.81rem] pl-28 container mx-auto">
+      <main className="pt-[4.81rem] container mx-auto">
         <Outlet />
       </main>
       <footer>footer</footer>
