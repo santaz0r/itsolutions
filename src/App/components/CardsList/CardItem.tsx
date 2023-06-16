@@ -6,7 +6,6 @@ type TProps = {
 };
 
 const CardItem = ({ card, currentSlide }: TProps) => {
-  console.log(card.id, currentSlide);
   const setCardClass = (id: number) =>
     currentSlide === id ? 'border-main-color h-[273px] pt-[30px]' : 'border-[#ccc] h-[233px] pt-[14px] ';
   return (

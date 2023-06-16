@@ -6,7 +6,6 @@ type TProps = {
 };
 
 const Advantages = ({ imagePath, content, rightSpacing, ySpacing }: TProps) => {
-  console.log(imagePath, imagePath.split('/')[2].split('.')[0]);
   return (
     <div className={`flex items-center ${ySpacing}`}>
       <img className={rightSpacing} src={imagePath} alt={imagePath.split('/')[2].split('.')[0]} />
