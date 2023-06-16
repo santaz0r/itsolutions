@@ -12,7 +12,7 @@ const FooterInfo = ({ title, info, pathIcons }: TProps) => {
       <div>
         {info.map((item, index) => (
           <p key={item} className="flex items-center py-0.5">
-            {pathIcons && <img className="mr-2.5" src={`src/assets/${pathIcons[index]}`} alt="test" />} {item}
+            {pathIcons && <img className="mr-2.5" src={`./assets/${pathIcons[index]}`} alt="test" />} {item}
           </p>
         ))}
       </div>

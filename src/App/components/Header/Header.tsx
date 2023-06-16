@@ -6,15 +6,15 @@ const Header = () => {
     <header className="bg-main-color h-16 rounded-bl-xl">
       <div className="flex justify-between ">
         <div className="py-3 pl-[5.25rem] ">
-          <ContactsTemplate content="+372 43675 476" path="/src/assets/phone.svg" alt="phone" />
-          <ContactsTemplate content="info@example.ee" path="/src/assets/Mail.svg" alt="mail" />
+          <ContactsTemplate content="+372 43675 476" path="./assets/phone.svg" alt="phone" />
+          <ContactsTemplate content="info@example.ee" path="./assets/Mail.svg" alt="mail" />
         </div>
         <div className="bg-header-nav pt-[0.75rem] h-[5.875rem] rounded-bl-full flex flex-col items-center justify-between">
           <div className="flex justify-end w-full pr-7">
-            <img src="src/assets/logo.svg" alt="carLogo" />
+            <img src="./assets/logo.svg" alt="carLogo" />
             <div className="flex items-center justify-end ml-[17.31rem]">
-              <img className="px-3" src="src/assets/facebook.svg" alt="facebook" />
-              <img className="px-3" src="src/assets/VK.svg" alt="vk" />
+              <img className="px-3" src="./assets/facebook.svg" alt="facebook" />
+              <img className="px-3" src="./assets/VK.svg" alt="vk" />
             </div>
           </div>
 
@@ -39,7 +39,7 @@ const Header = () => {
                 <CustomNavLink path={'/contacts'} content="КОНТАКТЫ" />
               </li>
               <li className="px-3">
-                <img src="src/assets/flag.svg" alt="flag" />
+                <img src="./assets/flag.svg" alt="flag" />
               </li>
             </ul>
           </nav>

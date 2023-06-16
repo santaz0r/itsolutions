@@ -10,12 +10,12 @@ const HomePage = () => {
       <section className="relative pl-28">
         <CarForm />
         <PersonForm />
-        <img className="absolute right-0 top-20" src="src/assets/city21.png" alt="city" />
+        <img className="absolute right-0 top-20" src="./assets/city21.png" alt="city" />
       </section>
       <section className="pr-20 relative pl-28 pt-9">
         <div className="flex flex-col justify-end items-end">
           <div className="w-[65%] flex flex-col justify-end items-center">
-            <img className="w-[69px]" src="src/assets/logo.svg" alt="logo" />
+            <img className="w-[69px]" src="./assets/logo.svg" alt="logo" />
             <h4 className="text-xs font-bold text-center mb-5">
               Желаешь продать машину быстро, но не хочешь заниматься этим самостоятельно? Доверь нам все проблемы,
               связанные с продажей машины!
@@ -23,7 +23,7 @@ const HomePage = () => {
             <CardsList />
           </div>
         </div>
-        <img className="absolute top-9 -left-7 -z-10" src="/src/assets/working.png" alt="works" />
+        <img className="absolute top-9 -left-7 -z-10" src="./assets/working.png" alt="works" />
       </section>
       <section className="pt-24 relative pl-[4.69rem]">
         <div className="w-[55%]">
@@ -39,28 +39,28 @@ const HomePage = () => {
           </p>
           <div className=" font-arimo font-bold text-base w-[64%]">
             <Advantages
-              imagePath={'src/assets/crown.svg'}
+              imagePath={'./assets/crown.svg'}
               content={'Предлагаем самые высокие цены'}
               rightSpacing="mr-3.5"
               ySpacing="py-5"
             />
 
             <Advantages
-              imagePath={'src/assets/doc.svg'}
+              imagePath={'./assets/doc.svg'}
               content={'Оформляем документы прямо на месте'}
               rightSpacing="mr-3.5"
               ySpacing="py-5"
             />
 
             <Advantages
-              imagePath={'src/assets/thumb.svg'}
+              imagePath={'./assets/thumb.svg'}
               content={'Выкупаем машины в любом состоянии'}
               rightSpacing="mr-3.5"
               ySpacing="py-5"
             />
           </div>
         </div>
-        <img className="absolute top-52 left-52 -z-10" src="src/assets/conv.png" alt="conv" />
+        <img className="absolute top-52 left-52 -z-10" src="./assets/conv.png" alt="conv" />
       </section>
       <section className="pt-44 pl-[4.69rem] pr-11">
         <div className="flex justify-between">
@@ -81,50 +81,50 @@ const HomePage = () => {
               <p>Наша цель - купить вашу машину максимально быстро, просто и выгодно для вас.</p>
             </div>
             <div className="flex justify-between mt-12">
-              <PocketAdv content="Быстро" path="src/assets/time.svg" />
-              <PocketAdv content="Качественно" path="src/assets/medal.svg" />
-              <PocketAdv content="Надежно" path="src/assets/hands.svg" />
+              <PocketAdv content="Быстро" path="./assets/time.svg" />
+              <PocketAdv content="Качественно" path="./assets/medal.svg" />
+              <PocketAdv content="Надежно" path="./assets/hands.svg" />
             </div>
           </div>
           <div className="w-[43%] font-arimo font-bold text-[15px]">
             <Advantages
-              imagePath="src/assets/check.svg"
+              imagePath="./assets/check.svg"
               content="Машину не надо подготавливать к продаже"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
             />
             <Advantages
-              imagePath="src/assets/check.svg"
+              imagePath="./assets/check.svg"
               content="Покупаем машины любого года выпуска и в любом состоянии"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
             />
             <Advantages
-              imagePath="src/assets/check.svg"
+              imagePath="./assets/check.svg"
               content="Покупаем машины без техосмотра и страховки"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
             />
             <Advantages
-              imagePath="src/assets/check.svg"
+              imagePath="./assets/check.svg"
               content="Покупаем машины не работающие и нуждающиеся в ремонте"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
             />
             <Advantages
-              imagePath="src/assets/check.svg"
+              imagePath="./assets/check.svg"
               content="Предложим за вашу машину больше остальных"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
             />
             <Advantages
-              imagePath="src/assets/check.svg"
+              imagePath="./assets/check.svg"
               content="Сразу же выплачиваем деньги"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
             />
             <Advantages
-              imagePath="src/assets/check.svg"
+              imagePath="./assets/check.svg"
               content="Работаем по всей Эстонии и сами выезжаем на место"
               rightSpacing="mr-5"
               ySpacing="py-[11.5px]"
