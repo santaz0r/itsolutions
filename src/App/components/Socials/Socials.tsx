@@ -1,7 +1,3 @@
-type TProps = {
-  data: string[];
-};
-
 const socialsData = {
   twitter: {
     path: './assets/twitter.svg',
@@ -17,17 +13,17 @@ const socialsData = {
   },
 };
 
+type TProps = {
+  data: (keyof typeof socialsData)[];
+};
+
 const Socials = ({ data }: TProps) => {
   console.log(data);
   return (
     <>
       {data?.map((item) => (
         <a href="#" key={item} className="h-[23px]">
-          <img
-            className="px-3 object-fill h-full"
-            src={socialsData[item as keyof typeof socialsData].path}
-            alt={item}
-          />
+          <img className="px-3 object-fill h-full" src={socialsData[item].path} alt={item} />
         </a>
       ))}
     </>
