@@ -3,29 +3,37 @@ import CardsList from '../../components/CardsList/CardsList';
 import CarForm from '../../components/Form/CarForm';
 import PersonForm from '../../components/Form/PersonForm';
 import PocketAdv from '../../components/PocketAdv/PocketAdv';
-
+//min-[320px]:max-lg:
 const HomePage = () => {
   return (
     <>
-      <section className="relative pl-28">
+      <section className="relative pl-28 min-[320px]:max-lg:px-5 min-[320px]:max-lg:flex min-[320px]:max-lg:flex-col min-[320px]:max-lg:flex min-[320px]:max-lg:items-center">
         <CarForm />
         <PersonForm />
-        <img className="absolute right-0 top-20" src="./assets/city21.png" alt="city" />
+        <img
+          className="min-[320px]:max-lg:relative min-[320px]:max-lg:top-5 min-[320px]:max-lg:-right-[20px] absolute right-0 top-20"
+          src="./assets/city21.png"
+          alt="city"
+        />
       </section>
-      <section className="pr-20 relative pl-28 pt-9">
+      <section className="min-[320px]:max-lg:px-5 pr-20 relative pl-28 pt-9">
         <div className="flex flex-col justify-end items-end">
-          <div className="w-[65%] flex flex-col justify-end items-center">
+          <div className="min-[320px]:max-lg:w-full w-[65%] flex flex-col justify-end items-center">
             <img className="w-[69px]" src="./assets/logo.svg" alt="logo" />
-            <h4 className="text-xs font-bold text-center mb-5">
-              Желаешь продать машину быстро, но не хочешь заниматься этим самостоятельно? Доверь нам все проблемы,
-              связанные с продажей машины!
+            <h4 className="text-xs font-bold text-center mb-5 font-arimo">
+              <p>Желаешь продать машину быстро, но не хочешь заниматься этим самостоятельно?</p>
+              <p> Доверь нам все проблемы, связанные с продажей машины!</p>
             </h4>
             <CardsList />
           </div>
         </div>
-        <img className="absolute top-9 -left-7 -z-10" src="./assets/working.png" alt="works" />
+        <img
+          className="min-[320px]:max-lg:hidden absolute top-9 -left-7 -z-10"
+          src="./assets/working.png"
+          alt="works"
+        />
       </section>
-      <section className="pt-24 relative pl-[4.69rem]">
+      {/*<section className="pt-24 relative pl-[4.69rem]">
         <div className="w-[55%]">
           <h3 className="mb-6 font-arimo inline-block font-bold text-2xl border-b-4 border-main-color">О НАС</h3>
           <h4 className="mb-5 font-arimo inline-block font-bold text-lg">
@@ -60,7 +68,7 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <img className="absolute top-52 left-52 -z-10" src="./assets/conv.png" alt="conv" />
+        <img className="absolute top-52 right-0 -z-10" src="./assets/conv.png" alt="conv" />
       </section>
       <section className="pt-44 pl-[4.69rem] pr-11">
         <div className="flex justify-between">
@@ -131,7 +139,7 @@ const HomePage = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

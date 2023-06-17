@@ -3,13 +3,15 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 
 const MainLayout = () => {
+  const clientWith = window.innerWidth;
+  console.log(clientWith);
   return (
     <>
       <Header />
-      <main className="pt-[4.81rem] container mx-auto text-main-text-color min-h-screen">
+      <main className="min-[320px]:max-lg:pt-2 pt-[4.81rem] container mx-auto text-main-text-color min-h-screen">
         <Outlet />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

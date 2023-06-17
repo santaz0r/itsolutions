@@ -15,6 +15,7 @@ export default {
         'main-text-color': '#0D2444',
         'button-color': '#A6C34F',
         'footer-end-bg': '#020D1A',
+        'card-bg': '#e4e4e4',
       },
     },
   },

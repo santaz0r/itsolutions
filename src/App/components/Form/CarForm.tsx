@@ -13,10 +13,12 @@ const CarForm = () => {
   });
 
   return (
-    <div className="w-[55%] mb-6">
-      <h3 className="font-arimo text-lg mb-9 flex justify-center w-[80%]">Данные автомобиля</h3>
+    <div className="min-[320px]:max-lg:w-full w-[55%] mb-6">
+      <h3 className="min-[320px]:max-lg:w-full min-[320px]:max-lg:mb-6 font-arimo text-lg mb-9 flex justify-center w-[80%]">
+        Данные автомобиля
+      </h3>
       <form onSubmit={onSubmit}>
-        <div className="grid grid-cols-4 gap-x-8 gap-y-3 ">
+        <div className="grid grid-cols-4 gap-x-8 gap-y-3 min-[320px]:max-lg:grid-cols-3">
           <TextField label="Марка" field="mark" register={register} />
           <TextField label="Модель" field="model" register={register} />
           <TextField label="Мотор" field="engine" register={register} />

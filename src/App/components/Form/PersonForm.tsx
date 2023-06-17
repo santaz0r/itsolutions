@@ -1,5 +1,6 @@
 import { useForm } from 'react-hook-form';
 import TextField from './TextField';
+//min-[320px]:max-lg:mb
 
 const PersonForm = () => {
   const {
@@ -12,7 +13,7 @@ const PersonForm = () => {
     console.log('data2', data);
   });
   return (
-    <div className="w-[45%]">
+    <div className="min-[320px]:max-lg:w-full w-[45%]">
       <h3 className="font-arimo text-lg mb-6 flex justify-center w-full">Другие данные</h3>
       <form onSubmit={onSubmit}>
         <div className="grid grid-cols-2 gap-x-8 gap-y-6 grid-rows-[auto]">
