@@ -41,7 +41,7 @@ const SideMenu = ({ isActive }: TProps) => {
           Русский
         </li>
         <li className="flex items-center justify-start">
-          <Socials />
+          <Socials data={['facebook', 'vk']} />
         </li>
       </ul>
     </nav>

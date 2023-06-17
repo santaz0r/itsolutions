@@ -11,7 +11,7 @@ const Header = () => {
     setActive((prev) => !prev);
   };
   return (
-    <header className="bg-main-color h-16 rounded-bl-xl min-[320px]:max-lg:pl-2">
+    <header className="fixed z-20 w-full bg-main-color h-16 rounded-bl-xl min-[320px]:max-lg:pl-2">
       <div className="flex justify-between min-[320px]:max-lg:items-start">
         <div
           className={` py-3 pl-[5.25rem] min-[320px]:max-lg:pl-[0px] min-[320px]:max-lg:py-3  min-[320px]:max-lg:flex min-[320px]:max-lg:flex-col-reverse`}

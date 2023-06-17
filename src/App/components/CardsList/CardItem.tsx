@@ -12,10 +12,10 @@ const CardItem = ({ card, currentSlide }: TProps) => {
 
   const translateCard = (id: number) =>
     currentSlide > id
-      ? 'min-[320px]:max-lg:translate-x-[42px] '
+      ? 'min-[320px]:max-lg:translate-x-[50px] '
       : currentSlide === id
       ? 'z-10'
-      : 'min-[320px]:max-lg:-translate-x-[42px]';
+      : 'min-[320px]:max-lg:-translate-x-[50px]';
 
   return (
     <div

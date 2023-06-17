@@ -8,7 +8,7 @@ import PocketAdv from '../../components/PocketAdv/PocketAdv';
 const HomePage = () => {
   return (
     <>
-      <section className="relative pl-28 min-[320px]:max-lg:px-5 min-[320px]:max-lg:flex min-[320px]:max-lg:flex-col min-[320px]:max-lg:items-center">
+      <section className=" mt-16 relative pl-28 min-[320px]:max-lg:px-5 min-[320px]:max-lg:flex min-[320px]:max-lg:flex-col min-[320px]:max-lg:items-center">
         <CarForm />
         <PersonForm />
         <img
@@ -17,9 +17,9 @@ const HomePage = () => {
           alt="city"
         />
       </section>
-      <section className="min-[320px]:max-lg:px-5 pr-20 relative pl-28 pt-9">
+      <section className="min-[320px]:max-lg:px-0 pr-20 relative pl-28 pt-9">
         <div className="flex flex-col justify-end items-end">
-          <div className="min-[320px]:max-lg:w-full w-[65%] flex flex-col justify-end items-center">
+          <div className="min-[320px]:max-lg:w-full w-[65%] flex flex-col justify-end items-center min-[320px]:max-lg:overflow-x-hidden min-[320px]:max-lg:pb-3">
             <img className="w-[69px]" src="./assets/logo.svg" alt="logo" />
             <h4 className="text-xs font-bold text-center mb-5 font-arimo">
               <p>Желаешь продать машину быстро, но не хочешь заниматься этим самостоятельно?</p>
