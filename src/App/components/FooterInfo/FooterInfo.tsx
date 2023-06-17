@@ -6,12 +6,13 @@ type TProps = {
 };
 
 const FooterInfo = ({ title, info, pathIcons }: TProps) => {
+  console.log(info);
   return (
     <div className="text-sm text-white">
       <div className="font-arimo font-bold mb-2.5">{title}</div>
       <div>
         {info.map((item, index) => (
-          <p key={item} className="flex items-center py-0.5">
+          <p key={item} className="flex items-center py-0.5 min-[320px]:max-lg:justify-center">
             {pathIcons && <img className="mr-2.5" src={`./assets/${pathIcons[index]}`} alt="test" />} {item}
           </p>
         ))}

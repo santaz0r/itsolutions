@@ -4,7 +4,7 @@ import CustomNavLink from '../CustomNavLink/CustomNavLink';
 import BurgerMenu from './BurgerMenu';
 import SideMenu from './SideMenu';
 import Socials from '../Socials/Socials';
-//min-[320px]:max-lg:
+
 const Header = () => {
   const [isActive, setActive] = useState(false);
   const handleClick = () => {
@@ -29,7 +29,7 @@ const Header = () => {
           <div className="min-[320px]:max-lg:hidden flex justify-end w-full pr-7">
             <img src="./assets/logo.svg" alt="carLogo" />
             <div className="flex items-center justify-end ml-[17.31rem]">
-              <Socials />
+              <Socials data={['facebook', 'vk']} />
             </div>
           </div>
           <BurgerMenu isActive={isActive} onClick={handleClick} />

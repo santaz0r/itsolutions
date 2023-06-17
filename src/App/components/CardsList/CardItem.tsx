@@ -1,5 +1,4 @@
 import { cards } from './CardsList';
-////min-[320px]:max-lg:
 type TProps = {
   card: (typeof cards)[0];
   currentSlide: number;
@@ -12,7 +11,6 @@ const CardItem = ({ card, currentSlide }: TProps) => {
       : 'border-[#ccc] h-[233px] pt-[14px]  w-[183px] min-[320px]:max-lg:w-[144px] min-[320px]:max-lg:bg-card-bg';
 
   const translateCard = (id: number) =>
-    //'min-[320px]:max-lg:translate-x-[42px]'
     currentSlide > id
       ? 'min-[320px]:max-lg:translate-x-[42px] '
       : currentSlide === id
