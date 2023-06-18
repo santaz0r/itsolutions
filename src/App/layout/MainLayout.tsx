@@ -3,8 +3,6 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 
 const MainLayout = () => {
-  const clientWith = window.innerWidth;
-  console.log(clientWith);
   return (
     <>
       <Header />

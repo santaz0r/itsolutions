@@ -8,14 +8,14 @@ const CardItem = ({ card, currentSlide }: TProps) => {
   const setCardClass = (id: number) =>
     currentSlide === id
       ? 'border-main-color h-[273px] pt-[30px] bg-white w-[183px]'
-      : 'border-[#ccc] h-[233px] pt-[14px]  w-[183px] min-[320px]:max-lg:w-[144px] min-[320px]:max-lg:bg-card-bg';
+      : 'border-[#ccc] h-[233px] pt-[14px]  w-[183px] min-[320px]:max-sm:w-[144px] min-[320px]:max-sm:bg-card-bg';
 
   const translateCard = (id: number) =>
     currentSlide > id
-      ? 'min-[320px]:max-lg:translate-x-[50px] '
+      ? 'min-[320px]:max-sm:translate-x-[50px] '
       : currentSlide === id
       ? 'z-10'
-      : 'min-[320px]:max-lg:-translate-x-[50px]';
+      : 'min-[320px]:max-sm:-translate-x-[50px]';
 
   return (
     <div

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import CardItem from './CardItem';
+import Carousel from './Carousel';
 
 export const cards = [
   {
@@ -25,14 +26,33 @@ export const cards = [
   },
 ];
 
+const config = {
+  steps1: '-translate-x-[150px]',
+  steps2: 'translate-x-[150px]',
+};
+
 const CardsList = () => {
-  const [currentSlide] = useState(2);
+  const [currentSlide, setCurrentSlide] = useState(2);
+
   return (
-    <div className="flex items-center">
-      {cards.map((card) => (
-        <CardItem key={card.id} card={card} currentSlide={currentSlide} />
-      ))}
-    </div>
+    <>
+      <div className="flex items-center min-[320px]:max-sm:hidden">
+        {cards.map((card) => (
+          <CardItem key={card.id} card={card} currentSlide={currentSlide} />
+        ))}
+      </div>
+      <div className={`overflow-hidden h-[280px] sm:hidden`}>
+        <div
+          className={`flex items-center w-[471px] transition-all ease-linear duration-300 ${
+            currentSlide === 3 ? config.steps1 : currentSlide === 1 ? config.steps2 : ''
+          }`}
+        >
+          {cards.map((card) => (
+            <Carousel key={card.id} card={card} currentSlide={currentSlide} setSlide={setCurrentSlide} />
+          ))}
+        </div>
+      </div>
+    </>
   );
 };
 

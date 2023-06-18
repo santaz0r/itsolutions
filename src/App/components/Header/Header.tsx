@@ -25,7 +25,7 @@ const Header = () => {
             <ContactsTemplate content="Покупка авто по одному звонку!" path="" alt="" />
           </div>
         </div>
-        <div className="min-[320px]:max-lg:h-16 min-[320px]:max-lg:py-[23px] min-[320px]:max-lg:pl-[112px] min-[320px]:max-lg:pr-[16px] bg-header-nav pt-[0.75rem] h-[5.875rem] rounded-bl-full flex flex-col items-center justify-between">
+        <div className="min-[320px]:max-lg:h-16 min-[320px]:max-lg:py-[23px] min-[320px]:max-lg:pl-[90px] min-[320px]:max-lg:pr-[16px] bg-header-nav pt-[0.75rem] h-[5.875rem] rounded-bl-full flex flex-col items-center justify-between">
           <div className="min-[320px]:max-lg:hidden flex justify-end w-full pr-7">
             <img src="./assets/logo.svg" alt="carLogo" />
             <div className="flex items-center justify-end ml-[17.31rem]">

@@ -6,7 +6,6 @@ type TProps = {
 };
 
 const FooterInfo = ({ title, info, pathIcons }: TProps) => {
-  console.log(info);
   return (
     <div className="text-sm text-white">
       <div className="font-arimo font-bold mb-2.5">{title}</div>

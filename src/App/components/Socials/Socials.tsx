@@ -18,7 +18,6 @@ type TProps = {
 };
 
 const Socials = ({ data }: TProps) => {
-  console.log(data);
   return (
     <>
       {data?.map((item) => (

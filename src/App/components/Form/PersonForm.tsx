@@ -1,6 +1,5 @@
 import { useForm } from 'react-hook-form';
 import TextField from './TextField';
-//min-[320px]:max-lg:mb
 
 const PersonForm = () => {
   const {

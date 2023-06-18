@@ -1,10 +1,11 @@
+import { useState } from 'react';
 import Advantages from '../../components/Advantages/Advantages';
 import AdvantagesList from '../../components/Advantages/AdvantagesList';
 import CardsList from '../../components/CardsList/CardsList';
 import CarForm from '../../components/Form/CarForm';
 import PersonForm from '../../components/Form/PersonForm';
 import PocketAdv from '../../components/PocketAdv/PocketAdv';
-//min-[320px]:max-lg:
+
 const HomePage = () => {
   return (
     <>

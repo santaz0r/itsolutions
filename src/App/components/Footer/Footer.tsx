@@ -1,6 +1,6 @@
 import FooterInfo from '../FooterInfo/FooterInfo';
 import Socials from '../Socials/Socials';
-//min-[320px]:max-lg:
+
 const Footer = () => {
   return (
     <footer className="mt-[129px] bg-footer-bg  ">
