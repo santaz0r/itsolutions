@@ -1,6 +1,6 @@
 ## Stack:
 
-- React
+- React (vite)
 - TypeScript
 - React hook form
 - Tailwind
