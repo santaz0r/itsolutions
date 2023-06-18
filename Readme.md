@@ -1,6 +1,6 @@
 ## Stack:
 
 - React
-- TypesScript
+- TypeScript
 - React hook form
 - Tailwind
