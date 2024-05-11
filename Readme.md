@@ -1,3 +1,6 @@
+
+# [Deploy](https://itsolutions-test.netlify.app/)
+
 ## Stack:
 
 - React (vite)
